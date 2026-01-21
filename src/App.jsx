@@ -1,23 +1,14 @@
 import './App.css'
+import Card from './assets/components/Card';
 
 function App() {
   return( 
   <>
-  <h1 className='text-blue-600 dark:text-sky-400 border-2 p-4 rounded-full'>LEARNING REACT WITH CHAICODE</h1>
-  <p className='text-red-600 dark:text-pink-400 rounded-full'>Lorem ipsum dolor sit amet.</p>
-  <div className='flex flex-col items-center gap-4 p-6 border-2 rounded-2xl shadow-lg bg-color-white dark:bg-yellow-100 w-full max-w-sm mx-auto mt-6 hover:bg-blue-500 transition-all duration-500 active:bg-amber-700'>
-    <img className="object-cover w-32" 
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrhaG2AttXH93ENiDs7yJPU6gzSLBHlkQ0QA&s" alt="Sample Image" className="w-72 h-72 rounded-lg border-4 border-red-500"/>
-    <h2 className='text-lg font-bold'>Card Title</h2>
-    <p className='text-blue-600 dark:text-red-400'>This is Just a sample Text , CLICK ON BUY NOW to BUY IT</p>
-    <button className='bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 hover:border-8'>BUY NOW </button>
-  </div>
-  <div className='flex flex-col items-center gap-4 p-6 border-2 rounded-2xl shadow-lg bg-color-white dark:bg-yellow-100 w-full max-w-sm mx-auto mt-6 hover:bg-blue-500 transition-all duration-500 active:bg-amber-700'>
-    <img className="object-cover w-32" 
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrhaG2AttXH93ENiDs7yJPU6gzSLBHlkQ0QA&s" alt="Sample Image" className="w-72 h-72 rounded-lg border-4 border-red-500"/>
-    <h2 className='text-lg font-bold'>Card Title</h2>
-    <p className='text-blue-600 dark:text-red-400'>This is Just a sample Text , CLICK ON BUY NOW to BUY IT</p>
-    <button className='bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 hover:border-8'>BUY NOW </button>
+  <h1 className='text-blue-600 dark:text-sky-400 border-2 p-4 rounded-full '>CHOOSE ONE CARD</h1>
+  <div className='flex gap-4'>
+  <Card />
+  <Card />
+  <Card />
   </div>
   </>
 );
