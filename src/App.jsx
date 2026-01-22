@@ -1,11 +1,14 @@
 import './App.css'
-import Card from './assets/components/Card';
-import Hero from './assets/components/Hero';
+import Card from './assets/components/Card'
+import Hero from './assets/components/Hero'
+import { Button } from "@/components/ui/button"
 import Header from './assets/components/Header';
 function App() {
   return( 
   <>
   <Header title="Codibex" para="My name is Kunal and im training to be a react developer"/>
+  <Button variant="outline">CLICK ME</Button>
+
   <Hero />
   <h1 className='text-blue-600 dark:text-sky-400 border-2 p-4 rounded-full bg-orange-500 hover:bg-blue-500 transition-all duration-300 hover:text-black'>CHOOSE ONE CARD</h1>
   <div className='flex gap-4'>

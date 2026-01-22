@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "module": "nodenext",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true
+    },
+    "include": []
+}

@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+:root {
+  background-color: black;
+}
+
+/* You can add project-specific styles below */
